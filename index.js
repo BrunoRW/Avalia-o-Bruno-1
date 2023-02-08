@@ -121,6 +121,7 @@ alunos.map(e=>{
 })
 
 mediaGeral /= totalAlunos;
+mediaGeral /= provas;
 mediaGeral = mediaGeral.toFixed(2)
 
 console.log(`
